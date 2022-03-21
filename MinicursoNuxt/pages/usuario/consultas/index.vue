@@ -16,10 +16,10 @@ export default {
   data() {
       return {
         items: [
-          { pet: 'Belinha', estado: 'Em aberto', veterinario_responsável: '' },
-          { pet: 'Pandora', estado: 'Aceita', veterinario_responsável: 'Heitor' },
-          { pet: 'Scooby', estado: 'Aceita', veterinario_responsável: 'Heitor' },
-          { pet: 'Billy', estado: 'Recusada', veterinario_responsável: 'Marcos' }
+          { pet: 'Mel', data: '2022-03-10', estado: 'Em aberto', veterinario_responsável: 'Marcos' },
+          { pet: 'Pandora', data: '2022-04-15', estado: 'Aceita', veterinario_responsável: 'Heitor' },
+          { pet: 'Scooby', data: '2022-09-04', estado: 'Aceita', veterinario_responsável: 'Heitor' },
+          { pet: 'Billy', data: '2022-12-28', estado: 'Rejeitada', veterinario_responsável: 'Marcos' }
         ]
       }
     }

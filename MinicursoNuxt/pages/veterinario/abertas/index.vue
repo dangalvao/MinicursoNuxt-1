@@ -24,11 +24,9 @@ export default {
   name: 'Consultas Abertas',
   data() {
     return {
-      fields: ['pet', 'responsável', 'Ações'],
+      fields: ['pet', 'data', 'estado', 'veterinário', 'Ações'],
       items: [
-        { pet: 'Belinha', responsável: 'Danilo' },
-        { pet: 'Bethoven', responsável: 'Júlia' },
-        { pet: 'Scott', responsável: 'Jefferson' },
+        { pet: 'Mel', data: '2022-03-10', estado: 'Em aberto', veterinario_responsável: 'Marcos' },
       ]
     }
   },
